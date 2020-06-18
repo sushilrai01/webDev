@@ -40,6 +40,19 @@ div#container1,#container2,#container3 {
   top: 0%;
   left: 70%;
 }
+#a{
+  color:black ;
+  background: #3f98c4
+}
+#c{
+  color: #95b9cc;
+   font-family:helvetica;
+  background:#118c4f
+}
+#e{
+  color: black ;
+  background:gray
+}
 
 .row {
   width: 100%;
