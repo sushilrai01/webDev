@@ -1,0 +1,102 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: g#fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#title{
+	margin-top: auto;
+	font-weight: bold;
+}
+
+/***HEADER***/
+#header-nav{
+	background-color: #2d536b;
+	border-radius: 0px;
+	border:0;
+	
+}
+.navbar-header{
+	height: 80px;
+} 
+
+.navbar-brand {
+  padding-top: 20px;
+}
+ 
+.navbar-brand h1 {
+	color: maroon;
+	margin-bottom: 5px;
+    text-shadow: 1px 1px 1px #222;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.navbar-brand a:hover , .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+/*For Toggle bar location*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -15px;
+  margin-bottom: 3PX;
+}
+/*End of Toggle bar*/
+#nav-list {
+	background-color: #2d536b;
+	text-align: center;
+	font-size: 1.2em; 
+}
+#nav-list a{
+	color: white;
+}
+#nav-list a:hover{
+	background-color: lightgreen;
+	color: maroon;
+}
+
+/*END OF HEADER*/
+
+/**MAIN CONTENT***/
+
+#menu{
+	margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;
+font-size: 0.85em;
+}
+
+
+#menu h3{
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+#chicken,#sushi,#beef{
+	background-color: #ccc4c4;
+
+}
+
+#chicken,#sushi,#beef p{
+padding: 0 20px 10px;
+	text-align: justify;
+}	
+
+#top{
+	text-align: center;
+	font-size: 1.2em;
+	margin-bottom: 30px;
+}
+
+#top a:hover , a:active{
+	color: red;
+
+}
+/*END OF MAIN CONTENT*/
